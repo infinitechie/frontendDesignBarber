@@ -251,7 +251,7 @@ section {
 /* BOOKING SECTION */
 
 .booking-section {
-    background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95)), url(../img/bedfordstuy.png);
+    background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.9)), url(../img/bedfordstuy.png);
     background-color: #000;
     height: 700px;
     background-size: cover;
