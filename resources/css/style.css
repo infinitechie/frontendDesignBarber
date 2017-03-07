@@ -6,7 +6,7 @@
 
 header {
     margin: 0; 
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(../img/heroPic.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(../img/heroPic.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -118,7 +118,10 @@ h1, h2, h3 {
 
 }
 
+
+
 .long-copy {
+    color: #fff;
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
@@ -134,6 +137,7 @@ h1 {
 }
 
 h2 {
+    color: #fff;
     margin-bottom: 30px;
     font-size: 190%;
     text-align: center;
@@ -153,6 +157,7 @@ h2:after {
 }
 
 h3 {
+    color: #fff;
     font-size: 100%;
     margin-bottom: 15px;
     font-weight: 400; 
@@ -165,7 +170,7 @@ h3 {
 
 
 html, body {
-    background-color: #fff;
+    background-color: #000;
     color: #555;
     font-family:  'Lato','Arial', 'sans-serif';
     font-size: 20px;
@@ -178,6 +183,7 @@ html, body {
 /* FEATURES SECTION*/
 
 section {
+    background-color: black;
     padding: 80px 0;
 }
 
@@ -242,13 +248,87 @@ section {
     opacity: 1;
 }
 
+/* BOOKING SECTION */
+
+.booking-section {
+    background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.95)), url(../img/bedfordstuy.png);
+    background-color: #000;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.booking-box .btn-full {
+    float: right;
+    margin: 0 auto;
+    font-weight: 400;
+    overflow:hidden;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.booking-box {
+    overflow:scroll;
+    background-color: black;
+    width: 70%;
+    height: 520px;
+    padding: 10px;
+    border: 8px solid #DAA520;
+    margin: 0 auto; 
+}
+
+.booking-box span {
+    font-weight: 400;
+    font-size: 140%;
+    color: #fff;
+}
+
+.booking-box .cost-of-cut {
+    margin: 0 auto;
+    float: right;
+    padding-right: 25px;
+    font-weight: 400;
+    font-size: 140%;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.booking-box h1 {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.booking-box ul li {
+    padding: 15px;
+    list-style: none;
+    color: #ccc;
+    font-size: 80%;
+
+}
+
+.booking-box ul li h4 {
+    list-style: none;
+    color: #ccc;
+    font-weight: 100;
+
+}
+
+ hr {
+     border-color: #DAA520;
+}
 
 /* Section Steps*/
 
-.get-the-app {
-    background-color: #f4f4f4;
-}
 
+.get-the-app {
+    background-color: #000;
+}
 
 .steps-box {
     margin-top: 30px;
@@ -267,7 +347,7 @@ section {
 }
 
 .app-screen {
-    width: 40%
+    width: 50%
 }
 
 .works-step {
@@ -276,6 +356,7 @@ section {
 }
 
 .works-step p {
+    color: #fff;
     padding: 12px;
 }
 
@@ -344,7 +425,7 @@ section {
 /* TESTIMONIALS SECTION */
 
 .testimonials {
-    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/back-customers.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/barbbackground.jpg);
     background-size: cover;
     color: white;
     background-attachment: fixed;
@@ -390,17 +471,17 @@ cite img {
 /* Pricing Plan section SECTION */
 
 .pricing-section {
-    background-color: #f4f4f4;
+    background-color: #000;
 
 }
 
 .plan-box {
     margin-top: 20px;
-    background-color: #fff;
+    background-color:#000;
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
-    box-shadow: 0 2px 2px #e3e3e3;
+    box-shadow: 1px 1px 2px 2px #222;
 
 }
 
@@ -456,7 +537,11 @@ cite img {
 
 
 .contact-form {
-    width: 80%;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(../img/bedfordstuy.png);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+
     padding-top: 50px;
     margin: 0 auto;
 
@@ -466,10 +551,14 @@ input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 7px;
     border-radius: 3px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
+    background-color: #000;
+    color: #fff;
     
 
 }
+
+
 
 textarea {
     height: 120px;
@@ -487,7 +576,7 @@ input[type=checkbox] {
 
 footer {
     padding-top: 30px;
-    background-color: #000;
+    background-color: black;
     color: #f4f4f4;
     height: 200px;
 }
@@ -534,4 +623,29 @@ footer p {
     text-align: center;
     font-size: 80%;
     margin-top: 90px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+  font-family:  'Lato';
+  font-size: 15px;
+  font-weight: 100;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  font-family:  'Lato';
+  font-size: 15px;
+  font-weight: 100;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+  font-family:  'Lato';
+  font-size: 15px;
+  font-weight: 100;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+  font-family:  'Lato';
+  font-size: 15px;
+  font-weight: 100;
 }

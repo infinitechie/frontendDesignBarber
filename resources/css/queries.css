@@ -1,3 +1,45 @@
+@media only screen and (max-width: 375px) { 
+
+    .booking-box .btn-full {
+    float: right;
+    margin: 0 auto;
+    font-weight: 400;
+    overflow:hidden;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 0px;
+}
+
+.booking-box .cost-of-cut {
+    margin: 0 auto;
+    float: right;
+    padding-right: 25px;
+    font-weight: 400;
+    font-size: 140%;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.booking-box span {
+    font-weight: 400;
+    font-size: 100%;
+    color: #fff;
+}
+
+.booking-box ul li h4 {
+    list-style: none;
+    color: #ccc;
+    font-weight: 100;
+    font-size: 80%;
+
+}
+
+
+
+}
+
+
 
 /* Small Phones iPhone 4 e.g.*/
 @media only screen and (max-width: 480px) {
@@ -30,12 +72,31 @@
         height: 40px;
     }
 
+.booking-box {
+    overflow:scroll;
+    background-color: black;
+    width: 99%;
+    height: 520px;
+    padding: 10px;
+    border: 8px solid #DAA520;
+    margin: 0 auto; 
+}
+
+
 
 
 }
 
 /* Ipads and big phones e.g. anything smaller than an ipad really */
 @media only screen and (max-width: 767px) {
+
+    .box {
+    text-align: center;
+}
+    .icon-big {
+        text-align: center;
+        padding-left: 0px;
+}
 
     body {
         font-size: 16px;
@@ -71,6 +132,7 @@
 .long-copy {
     width: 100%;
     margin-left: 0%;
+    text-align: center;
 }
 
 h1 {
